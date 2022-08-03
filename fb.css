@@ -1,0 +1,201 @@
+@font-face {
+    font-family: myLogoFont;
+    src: url(fonts/KlavikaBoldBold.otf);
+ }
+
+ @font-face {
+    font-family: myTextFont;
+    src: url(fonts/Helvetica.ttf);
+ }
+
+body{
+margin: 0;
+}
+
+.header{
+    background: #3b5998;
+    height: 85px;
+    width: 100%;
+}
+
+.logo{
+    width: 50%;
+    padding-top: 21px;
+    float: left;
+}
+
+.logo_txt{
+    text-decoration: none;
+    color: white;
+    font-size: 48px;
+    /* font-weight: 600; */
+    font-family: myLogoFont;
+    margin-left: 224px;
+}
+.login{
+    width: 40%;
+    float: left;
+    
+    padding-top: 13px;
+    padding-left: 44px;
+}
+.login_label{
+    font-family: myTextFont;
+    color: white;
+    text-decoration: none;
+    font-size: 11px;
+
+}
+.forgotpw{
+    font-family: myTextFont;
+    color: #9cb4d8;
+    text-decoration: none;
+    font-size: 11px;
+}
+.loginbutton{
+    background: #4267b2;
+    height: 21px;
+    border-color: #29487d;
+    cursor: pointer;
+    font-family: myTextFont;
+    color: white;
+    text-decoration: none;
+    font-size: 11px;
+}
+
+.loginbutton:hover{
+    background-color: turquoise;
+}
+.left-section{
+    width: 50%;
+    float: left;
+}
+p{
+    font-family: myTextFont;
+    color: #3b5998;
+    font-weight: 500;
+    font-weight: 800;
+    font-size: 21px;
+    margin-left: 224px;
+    margin-top: 35px;
+}
+.right-section{
+    width: 40%;
+    float: left;
+    padding-left: 44px;
+}
+
+.right-section h3{
+    font-family: myTextFont;
+    color: #000000;
+    font-weight: 500;
+    font-weight: 800;
+    font-size: 28px;
+    margin: 0;
+    padding-top: 34px;
+    
+}
+
+.right-section .para{
+    font-family: myTextFont;
+    color: #000000;
+    margin: 0;
+    font-size: 19px;
+    line-height: 29px;
+    font-weight: 500;
+    
+}
+
+.right-section h4{
+    font-family: myTextFont;
+    color: #727885;
+    /* margin: 1px; */
+    font-size: 14px;
+    line-height: 29px;
+    font-weight: 100;
+    margin: 0;
+    padding-top: 10px;
+   
+}
+
+
+.main-body{
+background: linear-gradient(white,#d3d8e8);
+height: 476px;
+}
+
+.formtextmargin{
+    margin-top: 5px;
+    width: 396px;
+    height: 25px;
+    /* text-align: center; */
+    border-color: #eaedf4;
+    border-width: 1px;
+    border-radius: 4px;
+}
+
+.label-gender{
+    font-family: myTextFont;
+    color: #000000;
+    margin: 0;
+    font-size: 14px;
+    line-height: 27px;
+
+}
+.right-section .para1{
+    font-family: myTextFont;
+    color: #727885;
+    /* margin: 1px; */
+    font-size: 9px;
+    font-weight: 100;
+    margin: 0;
+    line-height: 15px;
+    padding-top: 10px;
+}
+
+.ifieldname{
+    width: 193px;
+    height: 25px;
+    /* text-align: center; */
+    border-color: #eaedf4;
+    border-width: 1px;
+    border-radius: 4px;
+}
+.dob{
+    height: 25px;
+    border-color: #eaedf4;
+    border-width: 1px;
+}
+.signup{
+   
+    
+   
+    color: white;
+    background: #598f47;
+    border: thin;
+    border-radius: 3px;
+    width: 26%;
+    height: 30px;
+    margin-top: 15px;
+    font-weight: 600;
+    font-family: myTextFont;
+    letter-spacing: 1px;
+    text-align: center;
+
+
+}
+.right-section .para2{
+    font-family: myTextFont;
+    color: #727885;
+    /* margin: 1px; */
+    font-size: 9px;
+    font-weight: 100;
+    margin: 0;
+    line-height: 15px;
+    padding-top: 18px;
+
+}
+.link{
+    text-decoration: none;
+    
+}
